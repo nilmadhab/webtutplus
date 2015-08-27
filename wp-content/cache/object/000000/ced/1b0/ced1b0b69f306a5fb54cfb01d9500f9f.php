@@ -1,0 +1,1 @@
+ª¾ÞU<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:12:"last_checked";i:1440660982;s:7:"checked";a:1:{s:8:"flexform";s:4:"1.65";}s:8:"response";a:1:{s:8:"flexform";a:3:{s:3:"url";s:30:"http://flexform.swiftideas.net";s:11:"new_version";s:4:"1.68";s:7:"package";s:74:"http://wp-updates.com/api/1/download/theme/Dr9vXgRcZ9Szd-aIG5K6wQ/flexform";}}s:12:"translations";a:0:{}}}

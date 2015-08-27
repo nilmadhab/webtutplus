@@ -1,0 +1,112 @@
+[26-Jul-2015 02:10:11 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:10:11 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:13:00 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:13:01 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:13:08 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:44:18 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:44:20 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:49:10 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 02:51:05 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 03:00:01 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 03:00:15 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 03:24:02 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 03:24:03 UTC] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?alt=json&key=AIzaSyCa9jeGbICutfVxBgrO2aKUs9xqZTrUCF8: (403) Access Not Configured. The API (Google+ API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php:86
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/service/apiServiceResource.php(151): apiREST::execute(Object(apiServiceRequest))
+#2 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/contrib/apiPlusService.php(207): apiServiceResource->__call('get', Array)
+#3 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(35): PeopleServiceResource->get('me')
+#4 /home/nilmadhab/public_ht in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/io/apiREST.php on line 86
+[26-Jul-2015 03:25:10 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php:104
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/apiClient.php(131): apiOAuth2->authenticate(Array)
+#1 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(25): apiClient->authenticate()
+#2 /home/nilmadhab/public_html/demo/google_login/index.php(2): include_once('/home/nilmadhab...')
+#3 {main}
+  thrown in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php on line 104
+[26-Jul-2015 05:35:07 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php:104
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/apiClient.php(131): apiOAuth2->authenticate(Array)
+#1 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(25): apiClient->authenticate()
+#2 /home/nilmadhab/public_html/demo/google_login/index.php(2): include_once('/home/nilmadhab...')
+#3 {main}
+  thrown in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php on line 104
+[26-Jul-2015 18:40:15 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php:104
+Stack trace:
+#0 /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/apiClient.php(131): apiOAuth2->authenticate(Array)
+#1 /home/nilmadhab/public_html/demo/google_login/google-plus-access.php(25): apiClient->authenticate()
+#2 /home/nilmadhab/public_html/demo/google_login/index.php(2): include_once('/home/nilmadhab...')
+#3 {main}
+  thrown in /home/nilmadhab/public_html/demo/google_login/google-api-php-client/src/auth/apiOAuth2.php on line 104

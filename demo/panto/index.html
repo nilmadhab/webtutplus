@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebTut+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/css/bootstrap.css" rel="stylesheet" media="screen">
+
+    <!-- Bootstrap CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+        
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+ 
+ <script type="text/javascript">
+    var map ;
+    var latLng ;
+
+    var pos = new Array();
+    pos.push(new google.maps.LatLng(19.0820885,72.8769126)); //mumbai
+    pos.push(new google.maps.LatLng(28.6469655,77.0932634)); //delhi
+    pos.push(new google.maps.LatLng(22.6757244,88.368587));  //kolkata
+    pos.push(new google.maps.LatLng(23.226231, 72.644690)); //gandhinagar
+    pos.push(new google.maps.LatLng(13.0475604,80.2089535)); //chennai
+    pos.push(new google.maps.LatLng(21.148118, 79.090706)); //Nagpur
+
+
+    function initMap() {
+     latLng = new google.maps.LatLng(18.2748857,81.9366103);
+     map = new google.maps.Map(document.getElementById('map_canvas'), {
+       zoom: 5,
+       center: latLng,
+       mapTypeId: google.maps.MapTypeId.ROADMAP
+     });
+
+     var m = new Array();
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[0]            
+          }) ) ;
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[1]            
+          }) ) ;
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[2]            
+          }) ) ;
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[3]            
+          }) ) ;
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[4]            
+          }) ) ;
+     m.push( new google.maps.Marker({          
+            map: map,           
+            position:  pos[5]            
+          }) ) ;
+   }
+
+  
+
+   function pantome(a)
+   {
+      map.panTo(pos[a-1]);
+      map.setZoom(7);
+   }
+
+   function panout()
+   {
+      map.panTo(latLng);
+      map.setZoom(5);
+   }
+
+   google.maps.event.addDomListener(window, 'load', initMap);
+ </script>
+
+<style type="text/css">
+.mypan tr {
+  cursor:pointer;
+}
+    
+.mypan tr:hover {
+  background:rgba(244,251,17,0.45);
+}
+
+</style>
+
+</head>
+<body >
+<div  class = "col-sm-10" id="map_canvas" style="min-height:900px"></div>
+<div class="col-sm-2">
+ <h2>Hover over the place to pan to that place.&nbsp</h2>
+        <table >
+            <thead>
+                <tr><th>No.</th><th>Place Name</th></tr>
+            </thead>
+            <tbody class="mypan">
+            <tr onmouseover="pantome(1)" onmouseout="panout()">
+              <td>1</td>
+              <td>Mumbai</td>
+            </tr>
+
+            <tr onmouseover="pantome(2)" onmouseout="panout()">
+              <td >2</td>
+              <td>Delhi</td>
+            </tr>
+
+            <tr onmouseover="pantome(3)" onmouseout="panout()">
+              <td >3</td>
+              <td>Kolkata</td>
+            </tr>
+
+            <tr onmouseover="pantome(4)" onmouseout="panout()">
+              <td >4</td>
+              <td>Gandhinagar</td>
+            </tr>
+
+            <tr onmouseover="pantome(5)" onmouseout="panout()">
+              <td >5</td>
+              <td>Chennai</td>
+            </tr>
+
+            <tr onmouseover="pantome(6)" onmouseout="panout()">
+              <td >6</td>
+              <td>Nagpur</td>
+            </tr>
+
+            
+                  </tbody>
+              </table>
+</div>
+</body>
+</html>

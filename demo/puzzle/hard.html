@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<title>
+</title>
+<body style="background-image:url('ew.jpg')">
+<div style="margin:40px 800px 600px 900px;height:600px;width:350px;background-image:url('texture-02.jpg')">
+<br>
+<center><h2>Navigation Bar</h2>
+<br>
+<br>
+<p>Let's play the game and guess the picture
+Click the show buttons to unfold parts of the images</p>
+
+<br>
+
+</center>
+
+<center><button id="bu" onclick="show()">Click Here</button>
+<br>
+
+<br>
+Guess The Name
+<br>
+<br>
+<center>
+<form onSubmit="return check()">
+
+<input type="text" id="name">
+<br>
+<br>
+<button class="btn btn-success" type="submit">Submit</button>
+<br>
+<br>
+
+</form>
+</center>
+
+<h3>Score card</h3>
+
+<center>
+<p id="a"></p>
+<p id="b"></p>
+<a href="main.html" target="_self" style="text-decoration:none"><button class="btn btn-primary" style="width:100px;height:50px">HOME</button></a>
+</center>
+</div>
+<div style="margin:-1200px 0px 0px 60px;height:480px;width:720px;background-image:url('texture-02.jpg')">
+<br>
+<br>
+<br>
+<table style="margin:0px 0px 0px 45px" cellspacing="0" cellpadding="0" border="1" width="624px" height="352">
+<tr>
+<td style="height:88px;width:124px">
+<img id="w" src=""></img>
+</td>
+<td style="height:88px;width:124px"  >
+<img id="w1" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w2" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w3" src="n4.jpg"></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w4" src=""></img>
+</td>
+</tr>
+<tr>
+<td  style="height:88px;width:124px" >
+<img id="w5" src=""></img>
+</td>
+<td  style="height:88px;width:124px" >
+<img id="w6" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w7" src=""></img>
+</td>
+<td style="height:88px;width:124px">
+<img id="w8" src=""></img>
+</td>
+<td style="height:88px;width:124px">
+<img id="w9" src=""></img>
+</td>
+</tr>
+<tr>
+<td  style="height:88px;width:124px">
+<img id="w10" src=""></img>
+</td>
+<td  style="height:88px;width:124px">
+<img id="w11" src=""></img>
+</td>
+<td style="height:88px;width:124px">
+<img id="w12" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w13" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w14" src=""></img>
+</td>
+</tr>
+<tr>
+<td  style="height:88px;width:124px">
+<img id="w15" src=""></img>
+</td>
+<td style="height:88px;width:124px">
+<img id="w16" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w17" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w18" src=""></img>
+</td>
+<td style="height:88px;width:124px" >
+<img id="w19" src=""></img>
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+
+<script>
+
+var c=-1;
+var f=160;
+document.getElementById('a').innerHTML="Initial Score:-160";
+document.getElementById('b').innerHTML="Current Score:-160";
+function show()
+{
+if(c==-1)
+{
+document.getElementById('bu').innerHTML="Show Another";
+c++;
+}
+else if(c==0)
+{
+document.getElementById("w").src="n1.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==1)
+{
+document.getElementById("w7").src="n8.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==2)
+{
+document.getElementById("w5").src="n6.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==3)
+{
+document.getElementById("w4").src="n5.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==4)
+{
+document.getElementById("w1").src="n2.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==5)
+{
+document.getElementById("w11").src="n12.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c+=2;
+}
+
+else if(c==7)
+{
+document.getElementById("w2").src="n3.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==8)
+{
+document.getElementById("w10").src="n11.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==9)
+{
+document.getElementById("w8").src="n9.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+}
+else if(c==10)
+{document.getElementById("w6").src="n7.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==11)
+{document.getElementById("w13").src="n14.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==12)
+{document.getElementById("w16").src="n17.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==13)
+{document.getElementById("w14").src="n15.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==14)
+{document.getElementById("w19").src="n20.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==15)
+{document.getElementById("w15").src="n16.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==16)
+{document.getElementById("w12").src="n13.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==17)
+{document.getElementById("w17").src="n18.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==18)
+{document.getElementById("w18").src="n19.jpg";
+f=f-10;
+document.getElementById('b').innerHTML="Current Score:-"+f;
+c++;
+
+}
+else if(c==19)
+{
+alert("It's Nelson Mandela");
+document.getElementById('bu').hidden=true;
+document.getElementById("w9").src="n10.jpg";
+
+}
+
+}
+</script>
+<script>
+function check()
+{
+var na=document.getElementById('name').value;
+na=na.toLowerCase();
+var nb="nelson mandela";
+if(na.match(nb))
+{
+alert("You have guessed it correctly");
+return true;
+}
+else
+{
+alert("Wrong Answer Try Again");
+
+}
+
+
+}
+</script>
+
+
+
+
+</html>
