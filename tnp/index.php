@@ -9,6 +9,11 @@
 
     </head>
     <?php
+
+    	
+
+		
+
     	function db_connect(){
 
 		//$con = mysqli_connect("localhost","root","25011994","tnp");
@@ -22,6 +27,9 @@
 		return $con;
 	}
 	$conn = db_connect();
+
+
+
     ?>
 <body>
 
